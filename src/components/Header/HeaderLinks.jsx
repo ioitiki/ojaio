@@ -10,7 +10,9 @@ import ListItem from "material-ui/List/ListItem";
 import Tooltip from "material-ui/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Menu, CloudDownload } from "@material-ui/icons";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faBars from '@fortawesome/fontawesome-free-solid/faBars'
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -29,13 +31,16 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Apps}
+          buttonIcon={Menu}
           dropdownList={[
             <Link to="vow-renewal-page" className={classes.dropdownLink}>
               Vow Renewal
             </Link>,
             <Link to="naming-ceremony-page" className={classes.dropdownLink}>
               Naming Ceremony
+            </Link>,
+            <Link to="accommodations-page" className={classes.dropdownLink}>
+              Accommodations
             </Link>,
           ]}
         />

@@ -28,7 +28,7 @@ class VowRenewalPage extends React.Component {
     return (
       <div>
         <Header
-          brand={<FontAwesomeIcon icon={faHome} />}
+          brand={<FontAwesomeIcon icon={faHome} size="lg" />}
           leftLinks={<HeaderLinks />}
           rightLinks={<HeaderLinksSM />}
           fixed
@@ -41,7 +41,7 @@ class VowRenewalPage extends React.Component {
         />
         <Parallax medium filter image={require("assets/img/banner.jpeg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          
+          <h1 className={classes.title}>Vow Renewal</h1>
         </div>
         <Footer />
       </div>

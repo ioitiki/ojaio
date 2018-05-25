@@ -29,7 +29,7 @@ class NamingCeremonyPage extends React.Component {
     return (
       <div>
         <Header
-          brand={<FontAwesomeIcon icon={faHome} />}
+          brand={<FontAwesomeIcon icon={faHome} size="lg" />}
           leftLinks={<HeaderLinks />}
           rightLinks={<HeaderLinksSM />}
           fixed
@@ -40,9 +40,9 @@ class NamingCeremonyPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/ACSA.jpg")} />
+        <Parallax medium filter image={require("assets/img/mav3.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          
+          <h1 className={classes.title}>Naming Ceremony</h1>
         </div>
         <Footer />
       </div>

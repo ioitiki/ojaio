@@ -1,31 +1,30 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-// @material-ui/icons
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-// sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import HeaderLinksSM from "components/Header/HeaderLinksSM.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
-
-import homePageStyle from "assets/jss/material-kit-react/views/homePage.jsx";
+import Parallax from "components/Parallax/Parallax.jsx";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
+import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
+import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 
-class HomePage extends React.Component {
+class AccommodationsPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
+    const imageClasses = classNames(
+      classes.imgRaised,
+      classes.imgRoundedCircle,
+      classes.imgFluid
+    );
+    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
         <Header
@@ -40,9 +39,9 @@ class HomePage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/home-banner.jpg")} />
+        <Parallax medium filter image={require("assets/img/accommodations.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
+          <h1 className={classes.title}>Vow Renewal</h1>
         </div>
         <Footer />
       </div>
@@ -50,4 +49,4 @@ class HomePage extends React.Component {
   }
 }
 
-export default withStyles(homePageStyle)(HomePage);
+export default withStyles(vowRenewalPageStyle)(AccommodationsPage);
