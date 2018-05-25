@@ -3,7 +3,13 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const namingCeremonyPageStyle = {
-  container,
+  container: {
+    zIndex: "1",
+    color: "#FFFFFF",
+    marginTop: "130px",
+    textAlign: "center !important",
+    ...container
+  },
   profile: {
     textAlign: "center",
     "& img": {
@@ -37,10 +43,16 @@ const namingCeremonyPageStyle = {
   title: {
     ...title,
     display: "inline-block",
+    color: "white",
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
+  },
+  title2: {
+    color: "white",
+    textAlign: "center",
+    fontSize: "25px"
   },
   socials: {
     marginTop: "0",

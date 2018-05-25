@@ -33,7 +33,7 @@ function HeaderLinksSM({ ...props }) {
         >
           <IconButton
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://www.facebook.com/camilla.muldrow"
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
@@ -50,7 +50,7 @@ function HeaderLinksSM({ ...props }) {
         >
           <IconButton
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
+            href="https://www.instagram.com/pap3rink/?hl=en"
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >

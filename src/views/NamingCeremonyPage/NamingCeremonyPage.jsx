@@ -40,9 +40,21 @@ class NamingCeremonyPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/mav3.jpg")} />
+        <Parallax medium filter image={require("assets/img/mav3.jpg")}>
+          <div className={classes.container}>
+            <GridContainer>
+              <GridItem xs={12} sm={12} md={6}>
+                <h1 className={classes.title}>Naming Ceremony</h1>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <h1 className={classes.title}>Naming Ceremony</h1>
+            <GridContainer>
+              <GridItem>
+                <h1 className={classes.title2}>Naming Ceremony</h1>
+              </GridItem>
+            </GridContainer>
         </div>
         <Footer />
       </div>

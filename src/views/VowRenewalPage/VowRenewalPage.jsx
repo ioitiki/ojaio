@@ -39,7 +39,15 @@ class VowRenewalPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/banner.jpeg")} />
+        <Parallax medium filter image={require("assets/img/banner.jpeg")}>
+          <div className={classes.container}>
+            <GridContainer>
+              <GridItem xs={12} sm={12} md={6}>
+                <h1 className={classes.title}>Vow Renewal</h1>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <h1 className={classes.title}>Vow Renewal</h1>
         </div>

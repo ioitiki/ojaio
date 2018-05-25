@@ -3,7 +3,13 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const vowRenewalPageStyle = {
-  container,
+  container: {
+    zIndex: "1",
+    color: "#FFFFFF",
+    marginTop: "130px",
+    textAlign: "center !important",
+    ...container
+  },
   profile: {
     textAlign: "center",
     "& img": {
@@ -40,7 +46,8 @@ const vowRenewalPageStyle = {
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textDecoration: "none",
+    color: "white"
   },
   socials: {
     marginTop: "0",
