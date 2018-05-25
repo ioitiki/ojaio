@@ -8,6 +8,8 @@ import withStyles from "material-ui/styles/withStyles";
 import List from "material-ui/List";
 import ListItem from "material-ui/List/ListItem";
 import Tooltip from "material-ui/Tooltip";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
@@ -24,23 +26,6 @@ function HeaderLinksSM({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <IconButton
-            href="https://twitter.com/CreativeTim"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink + " " + classes.socialIconsButton}
-          >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
-          </IconButton>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -52,7 +37,7 @@ function HeaderLinksSM({ ...props }) {
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
+            <FontAwesomeIcon icon={['fab', 'facebook']} size="lg" />
           </IconButton>
         </Tooltip>
       </ListItem>
@@ -69,7 +54,7 @@ function HeaderLinksSM({ ...props }) {
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
+            <FontAwesomeIcon icon={['fab', 'instagram']} size="lg" />
           </IconButton>
         </Tooltip>
       </ListItem>
