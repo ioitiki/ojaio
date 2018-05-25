@@ -11,6 +11,8 @@ import GridItem from "components/Grid/GridItem.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
 import namingCeremonyPageStyle from "assets/jss/material-kit-react/views/namingCeremonyPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
@@ -27,7 +29,8 @@ class NamingCeremonyPage extends React.Component {
     return (
       <div>
         <Header
-          brand={<HeaderLinks />}
+          brand={<FontAwesomeIcon icon={faHome} />}
+          leftLinks={<HeaderLinks />}
           rightLinks={<HeaderLinksSM />}
           fixed
           color="transparent"

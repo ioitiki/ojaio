@@ -10,6 +10,8 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
 import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
@@ -26,7 +28,8 @@ class VowRenewalPage extends React.Component {
     return (
       <div>
         <Header
-          brand={<HeaderLinks />}
+          brand={<FontAwesomeIcon icon={faHome} />}
+          leftLinks={<HeaderLinks />}
           rightLinks={<HeaderLinksSM />}
           fixed
           color="transparent"

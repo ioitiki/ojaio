@@ -19,6 +19,9 @@ import HeaderLinksSM from "components/Header/HeaderLinksSM.jsx";
 import SectionBasics from "./Sections/SectionBasics.jsx";
 
 import homePageStyle from "assets/jss/material-kit-react/views/homePage.jsx";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import faHome from '@fortawesome/fontawesome-free-solid/faHome'
+
 
 class HomePage extends React.Component {
   render() {
@@ -26,11 +29,7 @@ class HomePage extends React.Component {
     return (
       <div>
         <Header
-          brand={
-            <Link to="/">
-              <img src="assets/img/home.png" alt=""/>
-            </Link>
-          }
+          brand={<FontAwesomeIcon icon={faHome} />}
           leftLinks={<HeaderLinks />}
           rightLinks={<HeaderLinksSM />}
           fixed
