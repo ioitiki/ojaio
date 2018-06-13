@@ -10,9 +10,12 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/accommodations.jpg";
-import image2 from "assets/img/mav3.jpg";
-import image3 from "assets/img/mav4.jpg";
+import image0 from "assets/img/hotels/airbnb.jpg";
+import image1 from "assets/img/hotels/hoteldeluxe.jpg";
+import image2 from "assets/img/hotels/markspencer.jpg";
+import image3 from "assets/img/hotels/paramount.jpg";
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import brands from '@fortawesome/fontawesome-free-brands'
 
 class SectionCarousel extends React.Component {
   render() {
@@ -23,27 +26,30 @@ class SectionCarousel extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 5000
     };
     return (
       <div className={classes.section}>
         <div className={classes.container}>
-          <GridContainer>
+        <GridContainer>
             <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
+                  <div>
+                    <img
+                      src={image0}
+                      alt="Zeroth slide"
+                      className="slick-image"
+                    />
+                  </div>
                   <div>
                     <img
                       src={image1}
                       alt="First slide"
                       className="slick-image"
                     />
-                    <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
-                      </h4>
-                    </div>
                   </div>
                   <div>
                     <img
@@ -51,12 +57,6 @@ class SectionCarousel extends React.Component {
                       alt="Second slide"
                       className="slick-image"
                     />
-                    <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Somewhere Beyond,
-                        United States
-                      </h4>
-                    </div>
                   </div>
                   <div>
                     <img
@@ -64,12 +64,6 @@ class SectionCarousel extends React.Component {
                       alt="Third slide"
                       className="slick-image"
                     />
-                    <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
-                      </h4>
-                    </div>
                   </div>
                 </Carousel>
               </Card>

@@ -56,7 +56,7 @@ const vowRenewalPageStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none",
-    color: "black"
+    color: "white"
   },
   socials: {
     marginTop: "0",

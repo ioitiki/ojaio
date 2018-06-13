@@ -34,6 +34,9 @@ const parallaxStyle = {
   },
   medium: {
     height: "470px"
+  },
+  accommodations: {
+    height: "50px"
   }
 };
 
