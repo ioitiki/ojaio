@@ -15,6 +15,7 @@ import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
 import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
+import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
 class AccommodationsPage extends React.Component {
   render() {
@@ -50,6 +51,7 @@ class AccommodationsPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <h1 className={classes.title}>Accommodations</h1>
+          <SectionCarousel />
         </div>
         <Footer />
       </div>

@@ -40,7 +40,7 @@ const vowRenewalPageStyle = {
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
   },
-  title: {
+  ptitle: {
     ...title,
     display: "inline-block",
     position: "relative",
@@ -48,6 +48,15 @@ const vowRenewalPageStyle = {
     minHeight: "32px",
     textDecoration: "none",
     color: "white"
+  },
+  title: {
+    ...title,
+    display: "inline-block",
+    position: "relative",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none",
+    color: "black"
   },
   socials: {
     marginTop: "0",
