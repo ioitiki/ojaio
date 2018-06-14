@@ -29,14 +29,6 @@ import SectionCarousel from "./Sections/SectionCarousel.jsx";
 class AccommodationsPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 5,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: false
-    };
     const imageClasses = classNames(
       classes.imgRaised,
       classes.imgRoundedCircle,
