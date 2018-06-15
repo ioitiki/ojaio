@@ -16,8 +16,17 @@ import image2 from "assets/img/hotels/markspencer.jpg";
 import image3 from "assets/img/hotels/paramount.jpg";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import brands from '@fortawesome/fontawesome-free-brands'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 class SectionCarousel extends React.Component {
+  scrollTo() {
+    scroller.scrollTo('scroll-to-element', {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
   render() {
     const { classes } = this.props;
     const settings = {
@@ -42,6 +51,7 @@ class SectionCarousel extends React.Component {
                       src={image0}
                       alt="Zeroth slide"
                       className="slick-image"
+                      onClick={() => scroll.scrollTo(790)}
                     />
                   </div>
                   <div>

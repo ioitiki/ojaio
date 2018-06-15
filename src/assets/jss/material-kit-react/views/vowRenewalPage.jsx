@@ -3,11 +3,21 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const vowRenewalPageStyle = {
+  section: {
+    padding: "50px 0"
+  },
+  marginAuto: {
+    marginLeft: "auto !important",
+    marginRight: "auto !important"
+  },
   container: {
     zIndex: "1",
     color: "#FFFFFF",
     marginTop: "130px",
     textAlign: "center !important",
+    ...container
+  },
+  container2: {
     ...container
   },
   profile: {

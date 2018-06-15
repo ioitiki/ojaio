@@ -16,17 +16,33 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-
-
+import image0 from "assets/img/hotels/airbnb.jpg";
+import image1 from "assets/img/hotels/hoteldeluxe.jpg";
+import image2 from "assets/img/hotels/markspencer.jpg";
+import image3 from "assets/img/hotels/paramount.jpg";
+// carousel scrolling
+import { Scroll,Element, scroller } from 'react-scroll'
+// style
 import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
+// components
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 import Airbnb from "./Sections/Airbnb.jsx";
 import HotelDeluxe from "./Sections/HotelDeluxe.jsx";
 import MarkSpencer from "./Sections/MarkSpencer.jsx";
 import Paramount from "./Sections/Paramount.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
 class AccommodationsPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.scrollTo = this.scrollTo.bind(this);
+  }
+  scrollTo(elementName) {
+    scroller.scrollTo(elementName, {
+      duration: 1500,
+      delay: 100,
+      smooth: true
+    })
+  }
   render() {
     const { classes, ...rest } = this.props;
     const imageClasses = classNames(
@@ -34,6 +50,16 @@ class AccommodationsPage extends React.Component {
       classes.imgRoundedCircle,
       classes.imgFluid
     );
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 5000
+    };
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
@@ -59,11 +85,62 @@ class AccommodationsPage extends React.Component {
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionCarousel />
-          <Airbnb />
-          <HotelDeluxe />
-          <MarkSpencer />
-          <Paramount />
+          <div className={classes.section}>
+            <div className={classes.container2}>
+              <GridContainer>
+                <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+                  <Card carousel>
+                    <Carousel {...settings}>
+                      <div>
+                        <img
+                          src={image0}
+                          alt="Zeroth slide"
+                          className="slick-image"
+                          onClick={() => this.scrollTo("airbnb")}
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src={image1}
+                          alt="First slide"
+                          className="slick-image"
+                          onClick={() => this.scrollTo("deluxe")}
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src={image2}
+                          alt="Second slide"
+                          className="slick-image"
+                          onClick={() => this.scrollTo("markspencer")}
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src={image3}
+                          alt="Third slide"
+                          className="slick-image"
+                          onClick={() => this.scrollTo("paramount")}
+                        />
+                      </div>
+                    </Carousel>
+                  </Card>
+                </GridItem>
+              </GridContainer>
+            </div>
+          </div>
+          <Element name="airbnb">
+            <Airbnb />
+          </Element>
+          <Element name="deluxe">
+            <HotelDeluxe />
+          </Element>
+          <Element name="markspencer">
+            <MarkSpencer />
+          </Element>
+          <Element name="paramount">
+            <Paramount />
+          </Element>
         </div>
         <Footer />
       </div>
