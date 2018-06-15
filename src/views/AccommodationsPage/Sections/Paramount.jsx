@@ -4,9 +4,9 @@ import React from "react";
 import withStyles from "material-ui/styles/withStyles";
 
 // @material-ui/icons
-import Dashboard from "@material-ui/icons/Dashboard";
-import Schedule from "@material-ui/icons/Schedule";
-import List from "@material-ui/icons/List";
+import Place from "@material-ui/icons/Place";
+import InfoOutline from "@material-ui/icons/InfoOutline";
+import AttachMoney from "@material-ui/icons/AttachMoney";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -30,8 +30,8 @@ class Paramount extends React.Component {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Dashboard",
-                      tabIcon: Dashboard,
+                      tabButton: "Information",
+                      tabIcon: InfoOutline,
                       tabContent: (
                         <span>
                           <p>
@@ -59,8 +59,8 @@ class Paramount extends React.Component {
                       )
                     },
                     {
-                      tabButton: "Schedule",
-                      tabIcon: Schedule,
+                      tabButton: "Location",
+                      tabIcon: Place,
                       tabContent: (
                         <span>
                           <p>
@@ -82,8 +82,8 @@ class Paramount extends React.Component {
                       )
                     },
                     {
-                      tabButton: "Tasks",
-                      tabIcon: List,
+                      tabButton: "Pricing",
+                      tabIcon: AttachMoney,
                       tabContent: (
                         <span>
                           <p>

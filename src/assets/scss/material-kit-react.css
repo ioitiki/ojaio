@@ -728,7 +728,7 @@ td.rdtYear:hover {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent; }
-  @media (min-width: 768px) {
+  @media (min-width: 400px) {
     .slick-slider .slick-caption {
       display: block !important; } }
   .slick-slider .slick-caption {
