@@ -23,7 +23,7 @@ import image3 from "assets/img/hotels/paramount.jpg";
 // carousel scrolling
 import { Scroll,Element, scroller } from 'react-scroll'
 // style
-import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
+import accommodationsPageStyle from "assets/jss/material-kit-react/views/accommodationsPage.jsx";
 // components
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 import Airbnb from "./Sections/Airbnb.jsx";
@@ -58,7 +58,7 @@ class AccommodationsPage extends React.Component {
       slidesToScroll: 1,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 5000
+      autoplaySpeed: 2000
     };
     const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
@@ -75,15 +75,7 @@ class AccommodationsPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/accommodations.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Accommodations</h1>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
+        <Parallax medium filter image={require("assets/img/accommodations.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.section}>
             <div className={classes.container2}>
@@ -148,4 +140,4 @@ class AccommodationsPage extends React.Component {
   }
 }
 
-export default withStyles(vowRenewalPageStyle)(AccommodationsPage);
+export default withStyles(accommodationsPageStyle)(AccommodationsPage);

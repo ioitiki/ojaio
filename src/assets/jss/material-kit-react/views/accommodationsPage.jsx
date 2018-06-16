@@ -2,7 +2,7 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
-const vowRenewalPageStyle = {
+const accommodationsPageStyle = {
   section: {
     padding: "50px 0"
   },
@@ -85,4 +85,4 @@ const vowRenewalPageStyle = {
   }
 };
 
-export default vowRenewalPageStyle;
+export default accommodationsPageStyle;
