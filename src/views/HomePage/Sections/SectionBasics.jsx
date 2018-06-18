@@ -70,19 +70,23 @@ class SectionBasics extends React.Component {
     return (
       <div className={classes.sections}>
         <div className={classes.container}>
+            <h1>Website being built. Check out:</h1>
+            <a href="/accommodations-page">
+            <h1>Accommodations.</h1>
+            </a>
             <GridContainer alignItems={"center"}>
-                <GridItem xs={5}>
-                  <Link to="/vow-renewal-page">
-                    <img
-                      src={image2}
-                      alt="..."
-                      className={classes.imgRoundedCircle + " " + classes.imgFluid}
-                    />
-                    <h2 className={classes.title}>
-                      Vow Renewal
-                    </h2>
-                  </Link>
-                </GridItem>
+              <GridItem xs={5}>
+                <Link to="/vow-renewal-page">
+                  <img
+                    src={image2}
+                    alt="..."
+                    className={classes.imgRoundedCircle + " " + classes.imgFluid}
+                  />
+                  <h2 className={classes.title}>
+                    Vow Renewal
+                  </h2>
+                </Link>
+              </GridItem>
               <GridItem xs={2} className={classes.ampPadding}>
                 <img src={image3} alt="..." className={classes.image3}/>
               </GridItem>
