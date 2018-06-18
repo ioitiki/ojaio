@@ -60,6 +60,12 @@ class HotelDeluxe extends React.Component {
                       tabContent: (
                         <span>
                           <p>
+                          Contact Brittanie @ 503-219-2094
+                          </p>
+                          <p>
+                            <a href="https://www.hoteldeluxeportland.com" target="_blank">hoteldeluxeportland.com</a>
+                          </p>
+                          <p>
                           Designed in the style of Hollywood’s Golden Age, Hotel deLuxe combines 
                           an art deco aesthetic with modern art. Here you’ll feel like a star: 
                           enjoy our extensive Provenance Signatures, afternoon tea, free screenings 
@@ -75,6 +81,13 @@ class HotelDeluxe extends React.Component {
                       tabIcon: Place,
                       tabContent: (
                         <span>
+                          <p>
+                            <center>
+                              <a className={classes.addressTitle} href="https://www.google.com/maps/place/Hotel+deLuxe/@45.5209897,-122.6899017,17z/data=!3m2!4b1!5s0x54950a1ce6316893:0x571df460155987ab!4m7!3m6!1s0x54950a1ce630fed7:0xf84f977a34d89b2b!5m1!1s2018-07-01!8m2!3d45.520986!4d-122.687713" target="_blank">
+                              729 SW 15th Avenue
+                              </a>
+                            </center>
+                          </p>
                           <MyMapComponent />
                         </span>
                       )
@@ -85,25 +98,7 @@ class HotelDeluxe extends React.Component {
                       tabContent: (
                         <span>
                           <p>
-                            Collaboratively administrate empowered markets via
-                            plug-and-play networks. Dynamically procrastinate
-                            B2C users after installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
+                          Standard Room Rate-$219
                           </p>
                         </span>
                       )
