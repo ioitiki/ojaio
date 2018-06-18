@@ -3,8 +3,6 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -14,9 +12,7 @@ import image0 from "assets/img/hotels/airbnb.jpg";
 import image1 from "assets/img/hotels/hoteldeluxe.jpg";
 import image2 from "assets/img/hotels/markspencer.jpg";
 import image3 from "assets/img/hotels/paramount.jpg";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import brands from '@fortawesome/fontawesome-free-brands'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { animateScroll as scroll, scroller } from 'react-scroll'
 
 
 class SectionCarousel extends React.Component {
