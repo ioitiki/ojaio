@@ -11,18 +11,9 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 import image0 from "assets/img/hotels/airbnb.jpg";
 import image1 from "assets/img/hotels/hoteldeluxe.jpg";
 import image2 from "assets/img/hotels/markspencer.jpg";
-import image3 from "assets/img/hotels/paramount.jpg";
-import { animateScroll as scroll, scroller } from 'react-scroll'
 
 
 class SectionCarousel extends React.Component {
-  scrollTo() {
-    scroller.scrollTo('scroll-to-element', {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart'
-    })
-  }
   render() {
     const { classes } = this.props;
     const settings = {
@@ -47,7 +38,6 @@ class SectionCarousel extends React.Component {
                       src={image0}
                       alt="Zeroth slide"
                       className="slick-image"
-                      onClick={() => scroll.scrollTo(790)}
                     />
                   </div>
                   <div>
@@ -61,13 +51,6 @@ class SectionCarousel extends React.Component {
                     <img
                       src={image2}
                       alt="Second slide"
-                      className="slick-image"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src={image3}
-                      alt="Third slide"
                       className="slick-image"
                     />
                   </div>
