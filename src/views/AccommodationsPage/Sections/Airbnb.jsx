@@ -5,7 +5,7 @@ import withStyles from "material-ui/styles/withStyles";
 
 // @material-ui/icons
 import Place from "@material-ui/icons/Place";
-import InfoOutline from "@material-ui/icons/InfoOutline";
+import Home from "@material-ui/icons/Home";
 import AttachMoney from "@material-ui/icons/AttachMoney";
 
 // core components
@@ -13,6 +13,15 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import pillsStyle from "assets/jss/material-kit-react/views/componentsSections/pillsStyle.jsx";
+import SectionCarousel0 from "./SectionCarousel0";
+import SectionCarousel1 from "./SectionCarousel1";
+import SectionCarousel2 from "./SectionCarousel2";
+import SectionCarousel3 from "./SectionCarousel3";
+import SectionCarousel4 from "./SectionCarousel4";
+import SectionCarousel5 from "./SectionCarousel5";
+import SectionCarousel6 from "./SectionCarousel6";
+import SectionCarousel7 from "./SectionCarousel7";
+import SectionCarousel8 from "./SectionCarousel8";
 
 class Airbnb extends React.Component {
   render() {
@@ -30,83 +39,83 @@ class Airbnb extends React.Component {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Information",
-                      tabIcon: InfoOutline,
+                      tabButton: "4 Guests",
+                      tabIcon: Home,
                       tabContent: (
                         <span>
-                          <p>
-                            Collaboratively administrate empowered markets via
-                            plug-and-play networks. Dynamically procrastinate
-                            B2C users after installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
-                          </p>
+                          <SectionCarousel0 />
                         </span>
                       )
                     },
                     {
-                      tabButton: "Location",
-                      tabIcon: Place,
+                      tabButton: "6 Guests",
+                      tabIcon: Home,
                       tabContent: (
                         <span>
-                          <p>
-                            Efficiently unleash cross-media information without
-                            cross-media value. Quickly maximize timely
-                            deliverables for real-time schemas.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically maintain clicks-and-mortar solutions
-                            without functional solutions. Dramatically visualize
-                            customer directed convergence without revolutionary
-                            ROI. Collaboratively administrate empowered markets
-                            via plug-and-play networks. Dynamically
-                            procrastinate B2C users after installed base
-                            benefits.
-                          </p>
+                          <SectionCarousel1 />
                         </span>
                       )
                     },
                     {
-                      tabButton: "Pricing",
-                      tabIcon: AttachMoney,
+                      tabButton: "9 Guests",
+                      tabIcon: Home,
                       tabContent: (
                         <span>
-                          <p>
-                            Collaboratively administrate empowered markets via
-                            plug-and-play networks. Dynamically procrastinate
-                            B2C users after installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
-                          </p>
-                          <br />
-                          <p>
-                            Dramatically visualize customer directed convergence
-                            without revolutionary ROI. Collaboratively
-                            administrate empowered markets via plug-and-play
-                            networks. Dynamically procrastinate B2C users after
-                            installed base benefits.
-                          </p>
+                          <SectionCarousel2 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "9 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel3 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "6 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel4 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "4 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel5 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "6 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel6 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "5 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel7 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "5 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel8 />
                         </span>
                       )
                     }

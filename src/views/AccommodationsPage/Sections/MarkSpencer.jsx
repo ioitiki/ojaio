@@ -1,3 +1,5 @@
+/*global google*/
+
 import React from "react";
 
 // material-ui components
@@ -17,9 +19,9 @@ import { compose, withProps } from "recompose";
 import {
   withScriptjs,
   withGoogleMap,
-  GoogleMap,
-  Marker
+  GoogleMap
 } from "react-google-maps";
+import { MarkerWithLabel } from "react-google-maps/lib/components/addons/MarkerWithLabel";
 
 const MyMapComponent = compose(
   withProps({
@@ -34,7 +36,17 @@ const MyMapComponent = compose(
 )(props => (
   <GoogleMap defaultZoom={18} defaultCenter={{ lat: 45.522179, lng: -122.682484 }}>
     {props.isMarkerShown && (
-      <Marker position={{ lat: 45.522179, lng: -122.682484 }} />
+      <MarkerWithLabel 
+        position={{ lat: 45.522179, lng: -122.682484 }}
+        labelAnchor={new google.maps.Point(0, 0)}
+        labelStyle={{backgroundColor: "yellow", fontSize: "32px", padding: "16px"}}
+      >
+        <div>
+          <p>
+            stuff
+          </p>
+        </div>
+      </MarkerWithLabel>
     )}
   </GoogleMap>
 ));
