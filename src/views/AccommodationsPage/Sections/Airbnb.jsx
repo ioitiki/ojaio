@@ -22,6 +22,7 @@ import SectionCarousel5 from "./SectionCarousel5";
 import SectionCarousel6 from "./SectionCarousel6";
 import SectionCarousel7 from "./SectionCarousel7";
 import SectionCarousel8 from "./SectionCarousel8";
+import SectionCarousel9 from "./SectionCarousel9";
 
 class Airbnb extends React.Component {
   render() {
@@ -116,6 +117,15 @@ class Airbnb extends React.Component {
                       tabContent: (
                         <span>
                           <SectionCarousel8 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "6 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <SectionCarousel9 />
                         </span>
                       )
                     }
