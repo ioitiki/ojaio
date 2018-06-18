@@ -107,14 +107,6 @@ class AccommodationsPage extends React.Component {
                           onClick={() => this.scrollTo("markspencer")}
                         />
                       </div>
-                      <div>
-                        <img
-                          src={image3}
-                          alt="Third slide"
-                          className="slick-image"
-                          onClick={() => this.scrollTo("paramount")}
-                        />
-                      </div>
                     </Carousel>
                   </Card>
                 </GridItem>
