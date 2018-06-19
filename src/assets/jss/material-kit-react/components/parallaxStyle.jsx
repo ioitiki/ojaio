@@ -30,10 +30,10 @@ const parallaxStyle = {
     }
   },
   small: {
-    height: "200px"
+    height: "220px"
   },
   medium: {
-    height: "200px"
+    height: "210px"
   },
   accommodations: {
     height: "50px"

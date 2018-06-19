@@ -13,6 +13,9 @@ const pillsStyle = {
   },
   addressTitle: {
     fontSize: "20px"
+  },
+  listingTitle: {
+    textAlign: "center"
   }
 };
 
