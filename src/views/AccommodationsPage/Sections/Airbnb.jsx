@@ -4,27 +4,25 @@ import React from "react";
 import withStyles from "material-ui/styles/withStyles";
 
 // @material-ui/icons
-import Place from "@material-ui/icons/Place";
 import Home from "@material-ui/icons/Home";
-import AttachMoney from "@material-ui/icons/AttachMoney";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import pillsStyle from "assets/jss/material-kit-react/views/componentsSections/pillsStyle.jsx";
-import SectionCarousel0 from "./SectionCarousel0";
-import SectionCarousel1 from "./SectionCarousel1";
-import SectionCarousel2 from "./SectionCarousel2";
-import SectionCarousel3 from "./SectionCarousel3";
-import SectionCarousel4 from "./SectionCarousel4";
-import SectionCarousel5 from "./SectionCarousel5";
-import SectionCarousel6 from "./SectionCarousel6";
-import SectionCarousel7 from "./SectionCarousel7";
-import SectionCarousel8 from "./SectionCarousel8";
-import SectionCarousel9 from "./SectionCarousel9";
-import SectionCarousel10 from "./SectionCarousel10";
-import SectionCarousel11 from "./SectionCarousel11";
+import SectionCarousel0 from "./AirbnbSections/SectionCarousel0";
+import SectionCarousel1 from "./AirbnbSections/SectionCarousel1";
+import SectionCarousel2 from "./AirbnbSections/SectionCarousel2";
+import SectionCarousel3 from "./AirbnbSections/SectionCarousel3";
+import SectionCarousel4 from "./AirbnbSections/SectionCarousel4";
+import SectionCarousel5 from "./AirbnbSections/SectionCarousel5";
+import SectionCarousel6 from "./AirbnbSections/SectionCarousel6";
+import SectionCarousel7 from "./AirbnbSections/SectionCarousel7";
+import SectionCarousel8 from "./AirbnbSections/SectionCarousel8";
+import SectionCarousel9 from "./AirbnbSections/SectionCarousel9";
+import SectionCarousel10 from "./AirbnbSections/SectionCarousel10";
+import SectionCarousel11 from "./AirbnbSections/SectionCarousel11";
 
 class Airbnb extends React.Component {
   render() {
