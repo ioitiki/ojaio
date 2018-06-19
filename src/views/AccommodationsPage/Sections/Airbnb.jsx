@@ -23,6 +23,8 @@ import SectionCarousel6 from "./SectionCarousel6";
 import SectionCarousel7 from "./SectionCarousel7";
 import SectionCarousel8 from "./SectionCarousel8";
 import SectionCarousel9 from "./SectionCarousel9";
+import SectionCarousel10 from "./SectionCarousel10";
+import SectionCarousel11 from "./SectionCarousel11";
 
 class Airbnb extends React.Component {
   render() {
@@ -197,6 +199,39 @@ class Airbnb extends React.Component {
                           Need Car/Lyfts expensive
                           </h3>
                           <SectionCarousel9 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "5 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <h3 className={classes.listingTitle}>
+                          5 guests (3 beds)
+                          1 bath
+                          5 max -- $202.40/person/3 nights
+                          +A/C
+                          Need Car
+                          </h3>
+                          <SectionCarousel10 />
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "2 Guests",
+                      tabIcon: Home,
+                      tabContent: (
+                        <span>
+                          <h3 className={classes.listingTitle}>
+                          2 guests (2 beds)
+                          1 bath
+                          2 max -- $321.45/person/3 nights
+                          +A/C
+                          Great for a Couple
+                          Need Car/Lyfts expensive
+                          </h3>
+                          <SectionCarousel11 />
                         </span>
                       )
                     }
