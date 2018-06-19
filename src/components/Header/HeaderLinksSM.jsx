@@ -33,7 +33,7 @@ function HeaderLinksSM({ ...props }) {
         >
           <IconButton
             color="transparent"
-            href="https://www.facebook.com/camilla.muldrow"
+            href="https://www.facebook.com/groups/174829296543526/"
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
