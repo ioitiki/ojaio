@@ -44,6 +44,12 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          4 guests (3 beds)
+                          1 bath
+                          4 max --$154.50/person/3 nights
+                          +A/C
+                          </h3>
                           <SectionCarousel0 />
                         </span>
                       )
@@ -53,6 +59,12 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          6 guests (3 beds)
+                          2 baths
+                          6 max -- $134.17/person/3 night
+                          +A/C
+                          </h3>
                           <SectionCarousel1 />
                         </span>
                       )
@@ -62,6 +74,15 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          9 guest (5 beds) + crib
+                          2 bath
+                          9 max -- $190.55/person/3 nights
+                          +A/C
+                          +Washer/Dryer
+                          Great for kids
+                          </h3>
+                          <h4 className={classes.listingTitle}>**Prebooked--Give us a call if you are interested.**</h4>
                           <SectionCarousel2 />
                         </span>
                       )
@@ -71,6 +92,12 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          9 guests (4 beds)
+                          2 baths
+                          9 max -- $217/person/3 nights
+                          Washer/Dryer
+                          </h3>
                           <SectionCarousel3 />
                         </span>
                       )
@@ -80,6 +107,14 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          6 guests (3 beds)
+                          6 max -- $176/17/person/3 nights
+                          18% discount
+                          +A/C 
+                          +Washer/Dryer
+                          Great for kids
+                          </h3>
                           <SectionCarousel4 />
                         </span>
                       )
@@ -89,6 +124,12 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          4 guests (2 beds)
+                          2 baths
+                          4 max -- $246.50/person/3 nights
+                          +A/C
+                          </h3>
                           <SectionCarousel5 />
                         </span>
                       )
@@ -98,6 +139,13 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          6 guests (4 beds)
+                          1 bath
+                          6 max -- $321.45/person/3 nights
+                          +A/C
+                          Need Car/Lyfts expensive
+                          </h3>
                           <SectionCarousel6 />
                         </span>
                       )
@@ -107,6 +155,13 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          5 guests (3 beds)
+                          1 bath
+                          5 max -- $149.20/person/3 nights
+                          +A/C
+                          Need Car/Lyfts expensive
+                          </h3>
                           <SectionCarousel7 />
                         </span>
                       )
@@ -116,6 +171,14 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          5 guests (4 beds)
+                          5 max -- $204.60/person/3 nights
+                          +A/C
+                          +Washer/Dryer
+                          Great for kids
+                          Need Car
+                          </h3>
                           <SectionCarousel8 />
                         </span>
                       )
@@ -125,6 +188,14 @@ class Airbnb extends React.Component {
                       tabIcon: Home,
                       tabContent: (
                         <span>
+                          <h3 className={classes.listingTitle}>
+                          6 guests (2 beds +1 sofa)
+                          1.5 bath
+                          6 max -- $219.67/person/3 nights
+                          +A/C
+                          +Washer/Dryer
+                          Need Car/Lyfts expensive
+                          </h3>
                           <SectionCarousel9 />
                         </span>
                       )
