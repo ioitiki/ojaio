@@ -33,7 +33,7 @@ class Airbnb extends React.Component {
           <div id="navigation-pills">
             <div className={classes.title}>
               <h2>Airbnb</h2>
-              <a href="http://www.airbnb.com/c/camillam6">
+              <a href="http://www.airbnb.com/c/camillam6" target="_blank">
                 <h3>Get $40 off your first adventure!</h3>
               </a>
             </div>
