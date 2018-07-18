@@ -17,6 +17,7 @@ const customTabsStyle = theme => ({
     display: "none"
   },
   tabsContainer: {
+    justifyContent: "center",
     color: "#FFFFFF",
     display: "flex",
     flexWrap: "wrap"
@@ -58,9 +59,9 @@ const customTabsStyle = theme => ({
     justifyContent: "center"
   },
   customTabLabel: {
-    fontWeight: "500",
-    fontSize: "12px",
-    lineHeight: "24px"
+    fontWeight: "300",
+    fontSize: "30px",
+    lineHeight: "22px"
   }
 });
 

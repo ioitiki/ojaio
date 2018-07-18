@@ -4,6 +4,7 @@ import classNames from "classnames";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 // core components
+import SectionSchedule from "./Sections/SectionSchedule.jsx"
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -39,17 +40,9 @@ class VowRenewalPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/banner.jpeg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Vow Renewal</h1>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
+        <Parallax medium filter image={require("assets/img/banner.jpeg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <h1 className={classes.title}>Vow Renewal</h1>
+          <SectionSchedule />
         </div>
         <Footer />
       </div>
