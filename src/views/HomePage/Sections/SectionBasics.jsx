@@ -70,10 +70,6 @@ class SectionBasics extends React.Component {
     return (
       <div className={classes.sections}>
         <div className={classes.container}>
-            <h1>Website being built. Check out:</h1>
-            <a href="/accommodations-page">
-            <h1>Accommodations.</h1>
-            </a>
             <GridContainer alignItems={"center"}>
               <GridItem xs={5}>
                 <Link to="/vow-renewal-page">
