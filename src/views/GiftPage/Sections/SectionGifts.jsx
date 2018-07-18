@@ -27,7 +27,7 @@ class SectionGifts extends React.Component {
                 <br/>
                 <h2>Interested in Food, Sustainability, and Grassroots Activism?</h2>
                 <h4>
-                  Please consider a donation to the <a href="http://www.morelandfarmersmarket.org/home/">Moreland Farmers Market</a> to
+                  Please consider a donation to the <a target="_blank" href="http://www.morelandfarmersmarket.org/home/">Moreland Farmers Market</a> to
                   fund one of our three hunger reduction programs so that we can keep feeding, educating, and supporting our
                   community members. The 3 programs we have are the ONLY senior nutrition program in Portland which is geared to
                   low income seniors, the Power of Produce program geared towards expanding young palates, and Double Up Food Bucks
@@ -67,15 +67,15 @@ class SectionGifts extends React.Component {
                 </h4>
                 <br/>
                 <h4>
-                  You can use PayPal’s Friends & Family Money Sending <a href="mailto:info@morelandfarmersmarket.org">info@morelandfarmersmarket.org</a>
+                  You can use PayPal’s Friends & Family Money Sending <a target="_blank" href="mailto:info@morelandfarmersmarket.org">info@morelandfarmersmarket.org</a>
                 </h4>
                 <h4>
-                  Or fill out their online form that takes a 3% processing fee from the donation <a href="https://secure.squarespace.com/checkout/donate?donatePageId=58f6af25cd0f68a54ff3846f">here</a>.
+                  Or fill out their online form that takes a 3% processing fee from the donation <a target="_blank" href="https://secure.squarespace.com/checkout/donate?donatePageId=58f6af25cd0f68a54ff3846f">here</a>.
                 </h4>
                 <br/>
                 <h2>Love Birth, Babies, and Healthcare?</h2>
                 <h4>
-                  Please make a donation to <a href="http://www.bumisehatfoundation.org/">Bumi Sehat</a> to start their endowment so that women
+                  Please make a donation to <a target="_blank" href="http://www.bumisehatfoundation.org/">Bumi Sehat</a> to start their endowment so that women
                   in Indonesia can have access to gentle, hygienic, and safe births. If we lived in Indonesia Camilla would want to give birth
                   with these midwives. For $25 you can pay the monthly salary of a midwife or nurse. Bumi Sehat hosted a continuing education
                   training that Camilla attended. She was invited to be the recipient of a blessingway to help her shepard a new life into this
@@ -87,7 +87,7 @@ class SectionGifts extends React.Component {
                   healthcare to families; and kind, hygienic and culturally appropriate childbirth to traditionally underrepresented populations.
                   Towards these goals, they provide health services, emergency care, education services and environmental programs. They are
                   devoted to working in partnership with people to improve the quality of life and to build peace - one mother, one child, one
-                  family at a time. <a href="http://www.bumisehatfoundation.org/donate-to-bumi-sehat-foundation/">Donate Here</a>.
+                  family at a time. <a target="_blank" href="http://www.bumisehatfoundation.org/donate-to-bumi-sehat-foundation/">Donate Here</a>.
                 </h4>
                 <br/>
                 <h2>Want to change the world in a more dramatic way?</h2>
@@ -96,7 +96,7 @@ class SectionGifts extends React.Component {
                 </h4>
                 <br/>
                 <h4>
-                  <a href="https://www.evidenceaction.org/beta-no-lean-season">No Lean Season</a> reduces the negative effects of seasonality on
+                  <a target="_blank" href="https://www.evidenceaction.org/beta-no-lean-season">No Lean Season</a> reduces the negative effects of seasonality on
                   the poorest in rural agricultural areas by enabling labor mobility that increases incomes.  It is a new program that we are
                   testing in Evidence Action Beta's portfolio, based on rigorous experimental evidence.
                 </h4>
@@ -110,7 +110,7 @@ class SectionGifts extends React.Component {
                 <h4>
                   With a temporary job during this 'lean season,' households are are able to put an additional meal on the table for every member
                   of the family each and every day. That's 500 additional meals during the lean
-                  season. <a href="https://donate.evidenceaction.org/give/139764/#!/donation/checkout">Donate Here</a>.
+                  season. <a target="_blank" href="https://donate.evidenceaction.org/give/139764/#!/donation/checkout">Donate Here</a>.
                 </h4>
               </GridItem>
             </GridContainer>
