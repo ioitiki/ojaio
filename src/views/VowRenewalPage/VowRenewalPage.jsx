@@ -7,8 +7,6 @@ import withStyles from "material-ui/styles/withStyles";
 import SectionSchedule from "./Sections/SectionSchedule.jsx"
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
@@ -20,12 +18,6 @@ import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 class VowRenewalPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
-    const imageClasses = classNames(
-      classes.imgRaised,
-      classes.imgRoundedCircle,
-      classes.imgFluid
-    );
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     return (
       <div>
         <Header

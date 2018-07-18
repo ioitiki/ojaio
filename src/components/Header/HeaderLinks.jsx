@@ -7,17 +7,12 @@ import { Link } from "react-router-dom";
 import withStyles from "material-ui/styles/withStyles";
 import List from "material-ui/List";
 import ListItem from "material-ui/List/ListItem";
-import Tooltip from "material-ui/Tooltip";
 
 // @material-ui/icons
-import { Menu, CloudDownload } from "@material-ui/icons";
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faBars from '@fortawesome/fontawesome-free-solid/faBars'
+import { Menu } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import IconButton from "components/CustomButtons/IconButton.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
@@ -41,6 +36,9 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="accommodations-page" className={classes.dropdownLink}>
               Accommodations
+            </Link>,
+            <Link to="gift-page" className={classes.dropdownLink}>
+              Gift Information
             </Link>,
           ]}
         />

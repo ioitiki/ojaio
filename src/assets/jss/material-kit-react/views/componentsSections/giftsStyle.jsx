@@ -1,22 +1,28 @@
-import { title } from "assets/jss/material-kit-react.jsx";
+import { container, title } from "assets/jss/material-kit-react.jsx";
 import customCheckboxRadioSwitch from "assets/jss/material-kit-react/customCheckboxRadioSwitch.jsx";
 
-const basicsStyle = {
+const giftsStyle = {
   sections: {
     padding: "70px 0"
   },
   ampPadding: {
     padding: "0 -100px"
   },
-  container: {
-    textAlign: "center !important",
-    // spacing: "-10"
+  container,
+  textCenter: {
+    textAlign: "center"
   },
   title: {
     ...title,
     marginTop: "10px",
     minHeight: "25px",
     textDecoration: "none"
+  },
+  eventTitle: {
+    fontWeight: "250",
+    fontSize: "20px",
+    marginTop: "1px",
+    lineHeight: "19px"
   },
   space50: {
     height: "50px",
@@ -52,4 +58,4 @@ const basicsStyle = {
   ...customCheckboxRadioSwitch
 };
 
-export default basicsStyle;
+export default giftsStyle;
