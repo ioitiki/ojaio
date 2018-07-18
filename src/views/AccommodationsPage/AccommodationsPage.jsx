@@ -75,7 +75,7 @@ class AccommodationsPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/accommodations.jpg")} />
+        <Parallax small filter image={require("assets/img/accommodations.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.section}>
             <div className={classes.container2}>
