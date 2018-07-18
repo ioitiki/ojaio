@@ -1,30 +1,11 @@
 import React from "react";
-// react plugin that creates slider
-import Nouislider from "react-nouislider";
-import classNames from "classnames";
+
 import { Link } from "react-router-dom";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-import InputAdornment from "material-ui/Input/InputAdornment";
-import FormControlLabel from "material-ui/Form/FormControlLabel";
-import Checkbox from "material-ui/Checkbox";
-import Radio from "material-ui/Radio";
-import Switch from "material-ui/Switch";
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
-import People from "@material-ui/icons/People";
-import Check from "@material-ui/icons/Check";
-import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import IconButton from "components/CustomButtons/IconButton.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.jsx";
-import Paginations from "components/Pagination/Pagination.jsx";
-import Badge from "components/Badge/Badge.jsx";
-import Card from "components/Card/Card.jsx";
 
 import image1 from "assets/img/mav4.jpg"
 import image2 from "assets/img/A_C.jpg"

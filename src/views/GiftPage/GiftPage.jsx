@@ -4,19 +4,18 @@ import classNames from "classnames";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 // core components
+import SectionGifts from "./Sections/SectionGifts.jsx"
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
-import namingCeremonyPageStyle from "assets/jss/material-kit-react/views/namingCeremonyPage.jsx";
+import giftPageStyle from "assets/jss/material-kit-react/views/giftPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 
-class NamingCeremonyPage extends React.Component {
+class GiftPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -33,21 +32,9 @@ class NamingCeremonyPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/mav3.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Naming Ceremony</h1>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
+        <Parallax small filter image={require("assets/img/gift.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
-            <GridContainer>
-              <GridItem>
-                <h1 className={classes.title2}>Naming Ceremony</h1>
-              </GridItem>
-            </GridContainer>
+          <SectionGifts />
         </div>
         <Footer />
       </div>
@@ -55,4 +42,4 @@ class NamingCeremonyPage extends React.Component {
   }
 }
 
-export default withStyles(namingCeremonyPageStyle)(NamingCeremonyPage);
+export default withStyles(giftPageStyle)(GiftPage);

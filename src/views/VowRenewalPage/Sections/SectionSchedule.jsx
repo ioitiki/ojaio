@@ -14,7 +14,7 @@ import CustomTabs from "components/CustomTabs/CustomTabs.jsx";
 
 import scheduleStyle from "assets/jss/material-kit-react/views/componentsSections/scheduleStyle.jsx";
 
-class SectionSchedule extends React.Component {
+class SectionGifts extends React.Component {
   constructor() {
     super()
     this.newEvent = this.newEvent.bind(this)
@@ -133,4 +133,4 @@ class SectionSchedule extends React.Component {
   }
 }
 
-export default withStyles(scheduleStyle)(SectionSchedule);
+export default withStyles(scheduleStyle)(SectionGifts);
