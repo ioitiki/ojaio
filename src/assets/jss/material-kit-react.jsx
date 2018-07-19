@@ -69,6 +69,10 @@ const defaultFont = {
   lineHeight: "1.5em"
 };
 
+const eventFont = {
+  fontFamily: '"Snell Roundhand", cursive'
+};
+
 const primaryColor = "#9c27b0";
 const warningColor = "#ff9800";
 const dangerColor = "#f44336";
@@ -181,6 +185,7 @@ const cardSubtitle = {
 
 export {
   //variables
+  eventFont,
   drawerWidth,
   transition,
   container,

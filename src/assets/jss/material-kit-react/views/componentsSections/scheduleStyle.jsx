@@ -1,4 +1,4 @@
-import { container, title } from "assets/jss/material-kit-react.jsx";
+import { container, title, eventFont } from "assets/jss/material-kit-react.jsx";
 import customCheckboxRadioSwitch from "assets/jss/material-kit-react/customCheckboxRadioSwitch.jsx";
 
 const scheduleStyle = {
@@ -19,10 +19,16 @@ const scheduleStyle = {
     textDecoration: "none"
   },
   eventTitle: {
+    ...eventFont,
+    fontWeight: "200",
+    fontSize: "45px"
+  },
+  eventStatus: {
     fontWeight: "250",
     fontSize: "20px",
     marginTop: "1px",
-    lineHeight: "19px"
+    lineHeight: "19px",
+    color: "#cc0000"
   },
   space50: {
     height: "50px",

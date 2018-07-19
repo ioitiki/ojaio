@@ -60,7 +60,7 @@ class SectionGifts extends React.Component {
                   organic, local, and nutrient dense foods.
                 </h4>
                 <br/>
-                <h2>Moreland Farmers Market</h2>
+                <h3>Moreland Farmers Market</h3>
                 <h4>
                   Our mission is to create a neighborhood space where local farmers can sell their fresh produce, cheese, meat, fish, honey,
                   baked goods, prepared food, cut flowers and plant starts (in the spring), a space that is readily accessible to all.
@@ -91,10 +91,6 @@ class SectionGifts extends React.Component {
                 </h4>
                 <br/>
                 <h2>Want to change the world in a more dramatic way?</h2>
-                <h4>
-                  Andy loves providing financial assistance to communities that grow our food internationally.
-                </h4>
-                <br/>
                 <h4>
                   <a target="_blank" href="https://www.evidenceaction.org/beta-no-lean-season">No Lean Season</a> reduces the negative effects of seasonality on
                   the poorest in rural agricultural areas by enabling labor mobility that increases incomes.  It is a new program that we are

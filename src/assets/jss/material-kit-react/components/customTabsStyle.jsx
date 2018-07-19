@@ -60,7 +60,7 @@ const customTabsStyle = theme => ({
   },
   customTabLabel: {
     fontWeight: "300",
-    fontSize: "30px",
+    fontSize: "22px",
     lineHeight: "22px"
   }
 });
