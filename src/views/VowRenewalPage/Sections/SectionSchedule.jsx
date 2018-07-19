@@ -19,15 +19,33 @@ class SectionGifts extends React.Component {
     super()
     this.newEvent = this.newEvent.bind(this)
   }
-  newEvent(title, info, status) {
+  newEvent(title, info1, info2, status, link, address) {
     const { classes } = this.props;
-    return (
-      <p className={classes.textCenter}>
-          <h3>{title}</h3>
-          <h4>{info}</h4>
-          <h3 className={classes.eventTitle}>{status}</h3>
-      </p>
-    )
+    if(address) {
+      return (
+        <p className={classes.textCenter}>
+          <h3 className={classes.eventTitle}>{title}</h3>
+          <h4>{info1} | <a href={address} target="_blank">{link}</a> | {info2}</h4>
+          <h3 className={classes.eventStatus}>{status}</h3>
+        </p>
+      )
+    } else if(link) {
+      return (
+        <p className={classes.textCenter}>
+          <h3 className={classes.eventTitle}>{title}</h3>
+          <h4>{info1} | {link} | {info2}</h4>
+          <h3 className={classes.eventStatus}>{status}</h3>
+        </p>
+      )
+    } else {
+      return (
+        <p className={classes.textCenter}>
+          <h3 className={classes.eventTitle}>{title}</h3>
+          <h4>{info1} | {info2}</h4>
+          <h3 className={classes.eventStatus}>{status}</h3>
+        </p>
+      )
+    }
   }
   render() {
     const { classes } = this.props;
@@ -48,8 +66,11 @@ class SectionGifts extends React.Component {
                       tabContent: (
                         this.newEvent(
                           "Welcome Dinner",
-                          "Thursday, September 6th | Andina | 1314 NW Glisan Street | 6 pm",
-                          "FAMILY ONLY EVENT"
+                          "Thursday, September 6th",
+                          "1314 NW Glisan Street | 6 pm",
+                          "FAMILY ONLY EVENT",
+                          "Andina",
+                          "http://www.andinarestaurant.com/"
                         )
                       )
                     },
@@ -60,32 +81,43 @@ class SectionGifts extends React.Component {
                         <div>
                           {this.newEvent(
                             "Ceremony",
-                            "Friday, September 7th | Shakespeare Garden | 400 SW Kingston Avenue | 3 pm",
-                            "FAMILY ONLY EVENT"
+                            "Friday, September 7th",
+                            "400 SW Kingston Avenue | 3 pm",
+                            "FAMILY ONLY EVENT",
+                            "Shakespeare Garden"
                           )}
                           <br/>
                           <hr/>
                           <br/>
                           {this.newEvent(
                             "Discovery Museum Exploration",
-                            "Friday, September 7th | Discovery Museum | 4033 SW Canyon Road | 4 pm",
-                            "ALL INVITED GUESTS"
+                            "Friday, September 7th",
+                            "4033 SW Canyon Road | 4 pm",
+                            "ALL INVITED GUESTS",
+                            "Discovery Museum",
+                            "https://www.worldforestry.org/visit-2/discovery-museum/"
                           )}
                           <br/>
                           <hr/>
                           <br/>
                           {this.newEvent(
                             "Happy Hour",
-                            "Friday, September 7th | Discovery Museum | 4033 SW Canyon Road | 5 pm",
-                            "ALL INVITED GUESTS"
+                            "Friday, September 7th",
+                            "4033 SW Canyon Road | 5 pm",
+                            "ALL INVITED GUESTS",
+                            "Discovery Museum",
+                            "https://www.worldforestry.org/visit-2/discovery-museum/"
                           )}
                           <br/>
                           <hr/>
                           <br/>
                           {this.newEvent(
                             "Reception",
-                            "Friday, September 7th | Cheatham Hall | World Forestry Center | 4033 SW Canyon Road | 6 pm",
-                            "ALL INVITED GUESTS"
+                            "Friday, September 7th",
+                            "4033 SW Canyon Road | 6 pm",
+                            "ALL INVITED GUESTS",
+                            "Cheatham Hall, World Forestry Center",
+                            "https://www.worldforestry.org/portfolio/cheatham-hall/"
                           )}
                         </div>
                       )
@@ -97,15 +129,18 @@ class SectionGifts extends React.Component {
                         <div>
                           {this.newEvent(
                             "Brunch",
-                            "Our House | 3141 SW Champlain Drive | 10 am to 1 pm",
-                            "ALL INVITED GUESTS"
+                            "Our House",
+                            "10 am to 1 pm",
+                            "ALL INVITED GUESTS",
+                            "3141 SW Champlain Drive"
                           )}
                           <br/>
                           <hr/>
                           <br/>
                           {this.newEvent(
                             "Portland Exploration",
-                            "What will you get into? | 1 pm"
+                            "What will you get into?",
+                            "1 pm"
                           )}
                         </div>
                       )
@@ -117,7 +152,8 @@ class SectionGifts extends React.Component {
                         <div>
                           {this.newEvent(
                             "Portland Exploration",
-                            "What will you get into? | All Day"
+                            "What will you get into?",
+                            "All Day"
                           )}
                         </div>
                       )
