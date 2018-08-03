@@ -108,6 +108,12 @@ class SectionGifts extends React.Component {
                   of the family each and every day. That's 500 additional meals during the lean
                   season. <a target="_blank" href="https://donate.evidenceaction.org/give/139764/#!/donation/checkout">Donate Here</a>.
                 </h4>
+                <br/>
+                <h2>Okay! So giving back is awesome but I would prefer to give something more tangible.</h2>
+                <h4>
+                  If you would rather purchasing a gift, we would love for you to select something from Maverick’s baby registry.
+                </h4>
+                <a target="_blank" href="http://www.babylist.com/PoppyseedMalkin">Maverick Baby Registry</a>.
               </GridItem>
             </GridContainer>
             </div>
