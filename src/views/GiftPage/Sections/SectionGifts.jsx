@@ -111,7 +111,7 @@ class SectionGifts extends React.Component {
                 <br/>
                 <h2>Okay! So giving back is awesome but I would prefer to give something more tangible.</h2>
                 <h4>
-                  If you would rather purchasing a gift, we would love for you to select something from Maverick’s baby registry.
+                  If you would rather purchase a gift, we would love for you to select something from Maverick’s baby registry.
                 </h4>
                 <a target="_blank" href="http://www.babylist.com/PoppyseedMalkin">Maverick Baby Registry</a>.
               </GridItem>
