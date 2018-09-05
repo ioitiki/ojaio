@@ -10,7 +10,6 @@ import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
 import image0 from "assets/img/MavCarousel/mav.jpg"
 import image1 from "assets/img/MavCarousel/mav0.jpg";
-import image2 from "assets/img/MavCarousel/mav1.jpg"
 import image3 from "assets/img/MavCarousel/mav2.jpg";
 import image4 from "assets/img/MavCarousel/mav3.jpg"
 import image5 from "assets/img/MavCarousel/mav4.jpg";
@@ -57,13 +56,6 @@ class SectionCarousel extends React.Component {
                     <img
                       src={image1}
                       alt="First slide"
-                      className="slick-image"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src={image2}
-                      alt="Second slide"
                       className="slick-image"
                     />
                   </div>

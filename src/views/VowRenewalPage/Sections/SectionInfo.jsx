@@ -16,20 +16,15 @@ class SectionInfo extends React.Component {
       <div className={classes.sections}>
         <div className={classes.container}>
             <div className={classes.title}>
-                <h2>What is a Brit Shalom</h2>
+                <h2>Ceremony Information</h2>
             </div>
             <GridContainer>
                 <GridItem>
-                    <h4>
-                        Brit shalom (ברית שלום‬) is a baby naming ceremony meaning “covenant of peace”. 
-                        This tradition is intended to replace the religious circumcision that takes place 
-                        during brit milah or bris. We have decided to welcome Maverick into the Jewish 
-                        faith with a rechitzah, traditional foot washing.
-                    </h4>
-                    <h4>
-                        Please bring water from a location that is meaningful to you to help us fill 
-                        the basin symbolizing your loving contribution to and presence in Maverick’s life.
-                    </h4>
+                    <h3>Transportation</h3>
+                    <br/>
+                    <a href="http://explorewashingtonpark.org/getting-here/#">Getting Here</a>
+                    <br/>
+                    <a href="http://explorewashingtonpark.org/parking">Parking</a>
                 </GridItem>
             </GridContainer>
         </div>

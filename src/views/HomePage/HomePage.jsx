@@ -16,6 +16,9 @@ import SectionBasics from "./Sections/SectionBasics.jsx";
 import homePageStyle from "assets/jss/material-kit-react/views/homePage.jsx";
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faHome from '@fortawesome/fontawesome-free-solid/faHome'
+import sound from '../../assets/sound/cwt.ogg'
+
+import ReactAudioPlayer from 'react-audio-player'
 
 
 class HomePage extends React.Component {
@@ -40,6 +43,11 @@ class HomePage extends React.Component {
           <SectionBasics />
         </div>
         <Footer />
+        <ReactAudioPlayer
+          src={sound}
+          autoPlay
+          controls
+        />
       </div>
     );
   }
