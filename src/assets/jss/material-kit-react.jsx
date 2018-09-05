@@ -70,7 +70,7 @@ const defaultFont = {
 };
 
 const eventFont = {
-  fontFamily: '"Snell Roundhand", cursive'
+  fontFamily: '"Lobster", cursive'
 };
 
 const primaryColor = "#9c27b0";

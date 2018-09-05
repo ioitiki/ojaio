@@ -7,6 +7,7 @@ const homePageStyle = {
     textAlign: "left"
   },
   title: {
+    fontFamily: '"Lobster", cursive',
     fontSize: "4.2rem",
     fontWeight: "600",
     display: "inline-block",

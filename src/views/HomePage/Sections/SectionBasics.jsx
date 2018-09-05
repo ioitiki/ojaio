@@ -59,24 +59,24 @@ class SectionBasics extends React.Component {
                     alt="..."
                     className={classes.imgRoundedCircle + " " + classes.imgFluid}
                   />
-                  <h2 className={classes.title}>
-                    Vow Renewal
-                  </h2>
+                  <p className={classes.title}>
+                    Vow Renewal & Brit Shalom
+                  </p>
                 </Link>
               </GridItem>
               <GridItem xs={2} className={classes.ampPadding}>
                 <img src={image3} alt="..." className={classes.image3}/>
               </GridItem>
               <GridItem xs={5}>
-              <Link to="/naming-ceremony-page">
+              <Link to="/all-things-maverick">
                   <img
                     src={image1}
                     alt="..."
                     className={classes.imgRoundedCircle + " " + classes.imgFluid}
                   />
-                  <h2 className={classes.title}>
-                    Brit Shalom
-                  </h2>
+                  <p className={classes.title}>
+                    All Things Maverick
+                  </p>
                 </Link>
               </GridItem>
             </GridContainer>

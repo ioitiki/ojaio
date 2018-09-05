@@ -31,8 +31,8 @@ function HeaderLinks({ ...props }) {
             <Link to="vow-renewal-page" className={classes.dropdownLink}>
               Vow Renewal
             </Link>,
-            <Link to="naming-ceremony-page" className={classes.dropdownLink}>
-              Naming Ceremony
+            <Link to="all-things-maverick" className={classes.dropdownLink}>
+              All Things Maverick
             </Link>,
             <Link to="accommodations-page" className={classes.dropdownLink}>
               Accommodations
