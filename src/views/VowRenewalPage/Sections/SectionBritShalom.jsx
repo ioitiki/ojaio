@@ -16,7 +16,7 @@ class SectionBritShalom extends React.Component {
       <div className={classes.sections}>
         <div className={classes.container}>
             <div className={classes.title}>
-                <h2>What is a Brit Shalom</h2>
+                <h2>What is a Brit Shalom?</h2>
             </div>
             <GridContainer>
                 <GridItem>
