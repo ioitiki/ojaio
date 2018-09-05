@@ -15,6 +15,7 @@ import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 import vowRenewalPageStyle from "assets/jss/material-kit-react/views/vowRenewalPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
 import SectionBritShalom from "./Sections/SectionBritShalom";
+import SectionInfo from "./Sections/SectionInfo";
 
 class VowRenewalPage extends React.Component {
   render() {
@@ -35,6 +36,7 @@ class VowRenewalPage extends React.Component {
         />
         <Parallax medium filter image={require("assets/img/banner.jpeg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
+          {/* <SectionInfo /> */}
           <SectionBritShalom />
           <SectionSchedule />
         </div>
