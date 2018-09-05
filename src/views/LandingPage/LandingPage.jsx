@@ -5,6 +5,7 @@ import classNames from "classnames";
 import withStyles from "material-ui/styles/withStyles";
 
 import { Link } from "react-router-dom";
+import ReactAudioPlayer from 'react-audio-player'
 
 // @material-ui/icons
 
@@ -19,6 +20,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 
 import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.jsx";
 
+import sound from '../../assets/sound/cwt.ogg'
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -37,6 +39,10 @@ class LandingPage extends React.Component {
             </div>
           </Parallax>
         </Link>
+        <ReactAudioPlayer
+          src={sound}
+          autoPlay
+        />
         <Footer />
       </div>
     );

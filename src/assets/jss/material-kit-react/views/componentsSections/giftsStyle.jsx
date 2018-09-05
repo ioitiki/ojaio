@@ -2,6 +2,16 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 import customCheckboxRadioSwitch from "assets/jss/material-kit-react/customCheckboxRadioSwitch.jsx";
 
 const giftsStyle = {
+  odeTitle: {
+    fontFamily: '"Dancing Script", cursive',
+    textAlign: 'center',
+    fontSize: 60
+  },
+  ode: {
+    fontFamily: '"Dancing Script", cursive',
+    textAlign: 'center',
+    fontSize: 16
+  },
   sections: {
     padding: "70px 0"
   },

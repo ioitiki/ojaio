@@ -19,8 +19,8 @@ const scheduleStyle = {
     textDecoration: "none"
   },
   eventTitle: {
-    ...eventFont,
-    fontWeight: "200",
+    fontFamily: '"Dancing Script", cursive',
+    fontWeight: "100",
     fontSize: "45px"
   },
   eventStatus: {

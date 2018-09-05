@@ -15,6 +15,8 @@ import faHome from '@fortawesome/fontawesome-free-solid/faHome'
 
 import namingCeremonyPageStyle from "assets/jss/material-kit-react/views/namingCeremonyPage.jsx";
 import HeaderLinksSM from "../../components/Header/HeaderLinksSM";
+import SectionCarousel from "./Sections/SectionCarousel";
+import SectionOde from "./Sections/SectionOde";
 
 class NamingCeremonyPage extends React.Component {
   render() {
@@ -33,21 +35,15 @@ class NamingCeremonyPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax medium filter image={require("assets/img/mav3.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Naming Ceremony</h1>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
+        <Parallax medium filter image={require("assets/img/mav3.jpg")} />
         <div className={classNames(classes.main, classes.mainRaised)}>
             <GridContainer>
               <GridItem>
-                <h1 className={classes.title2}>Naming Ceremony</h1>
+                <h1 className={classes.title}>All things Maverick</h1>
               </GridItem>
             </GridContainer>
+            <SectionCarousel />
+            <SectionOde />
         </div>
         <Footer />
       </div>

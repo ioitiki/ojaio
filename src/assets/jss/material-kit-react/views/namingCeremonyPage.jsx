@@ -42,12 +42,11 @@ const namingCeremonyPageStyle = {
   },
   title: {
     ...title,
-    display: "inline-block",
-    color: "white",
+    color: "black",
     position: "relative",
     marginTop: "30px",
     minHeight: "32px",
-    textDecoration: "none"
+    textAlign: 'center'
   },
   title2: {
     color: "white",
